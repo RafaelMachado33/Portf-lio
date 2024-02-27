@@ -464,9 +464,20 @@ img {
     width: 200px;
     border-radius: 100px;
   }
+ 
+}
+@media screen and (max-width: 800px){
+  #projects2{
+    display: grid;
+    grid-template-columns: repeat(1
+    , 400px);
+    justify-content: center;
+   
+   }
 }
 
 @media screen and (min-width: 576px) {
+
   .home {
     padding: 4rem 0 2rem;
   }
@@ -511,7 +522,10 @@ img {
   .contact__container {
     justify-items: center;
   }
+  
+
 }
+
 
 @media screen and (min-width: 768px) {
   body {
@@ -587,3 +601,4 @@ img {
 
   }
 }
+
